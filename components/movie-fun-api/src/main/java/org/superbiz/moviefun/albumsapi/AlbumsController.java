@@ -7,6 +7,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpEntity;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.MediaType;
+import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.multipart.MultipartFile;
 import org.superbiz.moviefun.albums.AlbumsBean;
@@ -22,7 +23,7 @@ import java.util.Optional;
 
 import static java.lang.String.format;
 
-@RestController
+@Controller
 @RequestMapping("/albums")
 public class AlbumsController {
 
