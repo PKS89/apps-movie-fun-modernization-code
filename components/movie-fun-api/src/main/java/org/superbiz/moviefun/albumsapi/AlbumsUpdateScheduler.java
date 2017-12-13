@@ -1,4 +1,4 @@
-package org.superbiz.moviefun.albums;
+package org.superbiz.moviefun.albumsapi;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
